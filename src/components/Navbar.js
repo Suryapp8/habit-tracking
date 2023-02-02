@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <div className='nav-container'>
-       <Link className='nav-link' to="/">Habit Tracker</Link>
+       <Link className='nav-link' to="/"><img style={{height: "3rem", width: "3rem"}} src="https://cdn-icons-png.flaticon.com/512/3703/3703446.png" /></Link>
       <Link className='nav-link nav-btn' to="/createhabit">+ Add Habit</Link>
       <h3 style={{color : "white"}}>{cTime}</h3>
       
