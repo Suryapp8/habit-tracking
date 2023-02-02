@@ -1,0 +1,37 @@
+.habit-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.habit-container input{
+    width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.add-track-btn{
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.add-track-btn:hover{
+    background-color: #45a049;
+}
+
+.add-track-link{
+  text-decoration: none;
+  margin-top: 3rem;
+}
